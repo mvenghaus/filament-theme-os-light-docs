@@ -3,6 +3,10 @@
 Are you looking for a theme that feels more like an app? Then the 'OS Light' theme is just right for you, especially when you run it as an webapp (browser without toolbar)! The lighter font enhances readability, less borders give you a smoother feeling.
 The colors in the theme are pre-defined, so you simply need to install it via composer, and you can start right away.
 
+## Screenshots
+
+![Screenshots](https://raw.githubusercontent.com/mvenghaus/filament-theme-os-light-docs/main/images/screenshots.gif)
+
 ## Requirements
 
 You need Filament v3 and a valid license to use this theme.
@@ -97,7 +101,28 @@ class AdminPanelProvider extends PanelProvider
 ##### withLogoInTopbar
 As you can see in the code above, there's an option to move the logo into the top bar. By doing so, you achieve a more compact view, making it even more app-like.
 
-> **_NOTE:_**  If you choose this option, make sure not to use any additional elements in the sidebar navigation header, otherwise they will not be visible.
+> **NOTE:** If you choose this option, make sure not to use any additional elements in the sidebar navigation header, otherwise they will not be visible.
+
+> **TIPP:** To prevent the logo from flickering during page reload, you should enable livewire:navigate ([read more](https://filamentphp.com/docs/3.x/panels/configuration)).
+> ```php
+> $panel->spa() 
+> ```
+
+# Recommended Settings
+To get the most out of it i suggest a few settings:
+
+* maxContentWidth to "Full" ([read more](https://filamentphp.com/docs/2.x/admin/appearance#changing-the-maximum-content-width))
+* inline your fields ([read  more](https://filamentphp.com/docs/2.x/forms/fields#checkbox))
+* pin it to your system's dock like a native app
+  * Linux ([read more](https://github.com/linuxmint/webapp-manager))
+  * Mac (no idea)
+  * Windows (no idea)
+
+Full featured:
+
+
+
+
 
 # Contact
 If you any questions or you find a bug, please [contact me via email](mailto:support@inklammern.de).
