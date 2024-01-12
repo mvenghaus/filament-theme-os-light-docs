@@ -118,11 +118,8 @@ To get the most out of it i suggest a few settings:
   * Mac (no idea)
   * Windows (no idea)
 
-Full featured:
-
-
-
-
+![Full Featured](https://raw.githubusercontent.com/mvenghaus/filament-theme-os-light-docs/main/images/full-featured.png)
+Full featured
 
 # Contact
 If you any questions or you find a bug, please [contact me via email](mailto:support@inklammern.de).
