@@ -56,7 +56,7 @@ You just need to edit the CSS file so that it uses the theme file.
 + @import '/vendor/mvenghaus/filament-theme-os-light/resources/css/index.css';
 ```
 
-Now, you just need to ensure that Tailwind processes the file. You can achieve this by including the path in your vite.config.js.
+You have to ensure that Tailwind processes the file. You can achieve this by including the path in your vite.config.js.
 
 ```diff
 - input: ['resources/css/app.css', 'resources/js/app.js'],
@@ -109,7 +109,7 @@ As you can see in the code above, there's an option to move the logo into the to
 > ```
 
 # Recommended Settings
-To get the most out of it i suggest a few settings:
+To get the most out of the theme, here are some recommend settings:
 
 * maxContentWidth to "Full" ([read more](https://filamentphp.com/docs/2.x/admin/appearance#changing-the-maximum-content-width))
 * inline your fields ([read  more](https://filamentphp.com/docs/2.x/forms/fields#checkbox))
