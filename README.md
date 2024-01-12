@@ -6,6 +6,7 @@ The colors in the theme are pre-defined, so you simply need to install it via co
 ## Screenshots
 
 ![Screenshots](https://raw.githubusercontent.com/mvenghaus/filament-theme-os-light-docs/main/images/screenshots.gif)
+All screenshots of this GIF are also available [here](https://github.com/mvenghaus/filament-theme-os-light-docs/tree/main/images)
 
 ## Requirements
 
@@ -36,7 +37,7 @@ You will be asked for a username and password. Use your order email address as u
 
 ### Stylesheets
 
-If you want to use a different design in Filament, you'll need to create a theme first. If you're using the default Filament setup with everything included, you can follow this guide. 
+If you want to use a different design in Filament, you'll need to create a theme first. If you're using the default Filament setup with everything included, you can follow this guide.
 For more information [click here](https://filamentphp.com/docs/3.x/panels/themes#creating-a-custom-theme).
 
 ```bash
