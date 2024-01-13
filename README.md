@@ -3,6 +3,12 @@
 Are you looking for a theme that feels more like an app? Then the 'OS Light' theme is just right for you, especially when you run it as an webapp (browser without toolbar)! The lighter font enhances readability, less borders give you a smoother feeling.
 The colors in the theme are pre-defined, so you simply need to install it via composer, and you can start right away.
 
+## Demo
+
+[Visit the Demo](https://filament-theme-os-light.inklammern.de/login)
+
+[Source Code](https://github.com/mvenghaus/filament-theme-os-light-demo)
+
 ## Screenshots
 
 ![Screenshots](https://raw.githubusercontent.com/mvenghaus/filament-theme-os-light-docs/main/images/screenshots.gif)
@@ -114,6 +120,7 @@ To get the most out of the theme, here are some recommend settings:
 
 * maxContentWidth to "Full" ([read more](https://filamentphp.com/docs/2.x/admin/appearance#changing-the-maximum-content-width))
 * inline your fields ([read  more](https://filamentphp.com/docs/2.x/forms/fields#checkbox))
+* use icon buttons in tables ([read  more](https://filamentphp.com/docs/3.x/tables/actions#choosing-an-action-group-button-style))
 * pin it to your system's dock like a native app
   * Linux ([read more](https://github.com/linuxmint/webapp-manager))
   * Mac (no idea)
